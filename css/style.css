@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html,
+body {
+  background: #1E1E1E;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
+}
+
+.location {
+  margin-top: 40px;
+}
+
+.location,
+.temp,
+.weather_description,
+.weather_icon {
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+button {
+  width: 200px;
+  color: #1E1E1E;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  outline: 2px solid transparent;
+  outline-offset: 30px;
+  transition: 0.5s all ease;
+}
+
+button:focus, button:hover {
+  outline: 2px solid #f00;
+  outline-offset: 0;
+}
+button:active {
+  position: relative;
+  top: 3px;
+  box-shadow: 000 #222;
+  outline: 2px solid #1E1E1E;
+  outline-offset: 0;
+}
+
+
+
+
+
